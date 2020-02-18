@@ -1,0 +1,89 @@
+label {
+  display: block;
+}
+
+h2 {
+  color: #b06ab3;
+}
+
+input,
+textarea,
+select {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 0% 5% 0% 5%;
+  height: 35px;
+  background-color: #E6E6E6;
+  border: 0px;
+  border-radius: 25px;
+}
+
+textarea {
+  padding: 5% 5% 0% 5%;
+  background-color: #E6E6E6;
+  border: 0px;
+  border-radius: 25px;
+  height: 100px;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+button {
+  background: -webkit-gradient(linear, left top, right top, from(#4568dc), to(#b06ab3));
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+  border-radius: 25px;
+  color: white;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-bottom: 34px;
+}
+/*# sourceMappingURL=ContactUs.css.map */

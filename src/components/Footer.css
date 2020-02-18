@@ -1,0 +1,69 @@
+.heart {
+  -webkit-animation: heartbeat 1s ease infinite;
+          animation: heartbeat 1s ease infinite;
+  background-color: #8744be;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  width: 50px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #8744be;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.heart:before {
+  top: -25px;
+  left: 0;
+}
+
+.heart:after {
+  left: 25px;
+  top: 0;
+}
+
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform: rotate(-45deg) scale(1);
+            transform: rotate(-45deg) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(-45deg) scale(1.2);
+            transform: rotate(-45deg) scale(1.2);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: rotate(-45deg) scale(1);
+            transform: rotate(-45deg) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(-45deg) scale(1.2);
+            transform: rotate(-45deg) scale(1.2);
+  }
+}
+
+.footer {
+  background-color: #E6E6E6;
+  color: #8744be;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,23 @@
+#Prices > h2 {
+  font-family: "Amatic SC";
+  font-size: 3em;
+  text-align: left;
+}
+
+#pricetable {
+  font-family: 'Amatic SC';
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+}
+
+#pricetable td,
+#pricetable th {
+  border: 2px solid;
+  border-color: purple;
+  padding: 2px;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=Prices.css.map */
